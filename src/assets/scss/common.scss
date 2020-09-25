@@ -1,0 +1,355 @@
+@import './public.scss';
+@import './vant.scss';
+@import './user.scss';
+@import '../font/iconfont.css';
+
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'arial'
+}
+
+html,
+body {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+body {
+    font-family: "arial";
+    color: #003132;
+    background: #F0F2F5;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.darkGrey {
+    color: #666;
+}
+
+.grey {
+    color: #999;
+}
+
+.blue {
+    color: #39A6BC;
+}
+
+.yellow {
+    color: #F79C38;
+}
+
+.green {
+    color: #49C271;
+}
+
+.unit {
+    font-size: 0.24rem !important;
+    color: #666;
+}
+
+.font18 {
+    font-size: 0.18rem !important;
+}
+
+.font20 {
+    font-size: 0.20rem !important;
+}
+
+.font22 {
+    font-size: 0.22rem;
+}
+
+.font24 {
+    font-size: 0.24rem;
+}
+
+.font26 {
+    font-size: 0.26rem;
+}
+
+.font28 {
+    font-size: 0.28rem;
+}
+
+.font30 {
+    font-size: 0.3rem;
+}
+
+.font32 {
+    font-size: 0.32rem;
+}
+
+.font34 {
+    font-size: 0.34rem;
+}
+
+.font36 {
+    font-size: 0.36rem;
+}
+
+.font38 {
+    font-size: 0.38rem;
+}
+
+.font40 {
+    font-size: 0.40rem;
+}
+
+.font44 {
+    font-size: 0.44rem;
+}
+
+.font46 {
+    font-size: 0.46rem;
+}
+
+.font48 {
+    font-size: 0.48rem;
+}
+
+.font50 {
+    font-size: 0.5rem;
+}
+
+.mar-top-0 {
+    margin-top: 0 !important;
+}
+
+.mar-top-10 {
+    margin-top: 0.1rem;
+}
+
+.mar-top-20 {
+    margin-top: 0.2rem;
+}
+
+.mar-bottom-10 {
+    margin-bottom: 0.1rem;
+}
+
+.mar-bottom-20 {
+    margin-bottom: 0.2rem;
+}
+
+.mar-bottom-30 {
+    margin-bottom: 0.3rem;
+}
+
+.mar-left-20 {
+    margin-left: 0.2rem;
+}
+
+.mar-10 {
+    margin: 0.1rem;
+}
+
+.mar-20 {
+    margin: 0.2rem;
+}
+
+.mar-bottom-20 {
+    margin-bottom: 0.2rem !important;
+}
+
+.pad-10 {
+    padding: 0.1rem;
+}
+
+.pad-20 {
+    padding: 0.2rem;
+}
+
+.pad-left-3 {
+    padding-left: 3px;
+}
+
+.pad-left-10 {
+    padding-left: 0.1rem;
+}
+
+.pad-left-20 {
+    padding-left: 0.2rem;
+}
+
+.pad-left-30 {
+    padding-left: 0.3rem;
+}
+
+.pad-right-10 {
+    padding-right: 0.1rem;
+}
+
+.pad-right-20 {
+    padding-right: 0.2rem;
+}
+
+.pad-right-30 {
+    padding-right: 0.3rem;
+}
+
+.pad-top-10 {
+    padding-top: 0.1rem;
+}
+
+.pad-top-15 {
+    padding-top: 0.15rem;
+}
+
+.pad-top-20 {
+    padding-top: 0.2rem;
+}
+
+.pad-top-30 {
+    padding-top: 0.3rem;
+}
+
+.pad-bottom-10 {
+    padding-bottom: 0.1rem;
+}
+
+.pad-bottom-15 {
+    padding-bottom: 0.15rem;
+}
+
+.pad-bottom-20 {
+    padding-bottom: 0.2rem;
+}
+
+.pad-bottom-30 {
+    padding-bottom: 0.3rem;
+}
+
+.pad-30 {
+    padding: 0.3rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.txt-c {
+    text-align: center !important;
+}
+
+.txt-r {
+    text-align: right !important;
+}
+
+.txt-l {
+    text-align: left !important;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+    display: block;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.bg-white {
+    background: #fff;
+    padding: 0 0.2rem 0.2rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex1 {
+    flex: 1
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input::-webkit-input-placeholder {
+    color: #cacaca;
+}

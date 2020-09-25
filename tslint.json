@@ -1,0 +1,76 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
+  "rules": {
+    "destructuring": true,  
+    "trailing-comma": [false, { //对尾随逗号的校验
+      "multiline": {
+        "objects": "always",
+        "arrays": "always",
+        "functions": "never",
+        "typeLiterals": "ignore"
+      },
+      "esSpecCompliant": true //是否允许尾随逗号出现在剩余变量中
+    }],
+    // 异步函数必须包含一个await或者返回一个声明
+    "no-async-without-await": true, 
+    "eqeqeq": 2,//必须使用全等
+    // 不允许对Array使用for-in
+    "no-for-in": true,
+    "curly": [true, "ignore-same-line"],
+    // 不许有空代码块 {}
+    "no-empty": true,
+    // 不许有空接口
+    "no-empty-interface": true,
+    "no-trailing-whitespace": true,
+    // 不允许做 var|let unn = undefined 这种无意义赋值
+    "no-unnecessary-initializer": true,
+    // 禁止 unused expression
+    // 参考：https://eslint.org/docs/rules/no-unused-expressions
+    "no-unused-expression": true,
+    // 禁止声明前使用变量，针对 var 变量提升问题
+    "no-use-before-declare": true,
+    // 不许使用 var 声明变量
+    "no-var-keyword": true,
+    // Checks ordering of keys in object literals.
+    // 检查对象 key 的声明顺序
+    "object-literal-sort-keys": false,
+    // 禁止一个或者多个空白行
+    "no-consecutive-blank-lines": true,
+    // 检查流程控制代码的衔接部分和空格
+    "one-line": [true, "check-open-brace","check-finally", "check-catch", "check-else", "check-whitespace"],
+    // 优先使用 const 声明变量
+    "prefer-const": true,
+    // 一个参数没有必要有括号
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    // 字面类型的每个成员都必须有分号
+    "switch-final-break": true,
+    // 字符串字面量需要使用 单引号 包裹
+    // 使用 parseInt 时需要定义 radix 参数
+    "radix": true,
+    // 每个声明后强制 ;
+    "semicolon": [true, "always"],
+    "await-promise": true,
+    // 强制用 === 替换 ==
+    "triple-equals": [true, "allow-null-check"],
+    //语句强制分号结尾
+    "semi": [2, "always"],
+    // 限制空格的位置
+    "whitespace": [true, "check-branch", "check-operator", "check-typecast"],
+    "no-const-assign": 2,//禁止修改const声明的变量
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "max-line-length": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "prefer-for-of": false,
+    "no-console": false
+  }
+}

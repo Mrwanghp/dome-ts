@@ -1,0 +1,126 @@
+.block-input {
+    width: 6.72rem;
+    height: 1.32rem;
+    background: #FFFFFF;
+    box-shadow: .013333rem .066667rem .426667rem .013333rem rgba(48, 122, 249, 0.17);
+    border-radius: .066667rem .053333rem .053333rem .066667rem;
+    position: relative;
+
+    input {
+        width: 100%;
+        font-size: .32rem;
+        height: 100%;
+        line-height: 1.32rem;
+        padding-left: 1.12rem;
+
+    }
+
+    .inputIcon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: .413333rem;
+    }
+
+    .inputIcon-eye,.inputIcon-txt {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: .413333rem;
+    }
+}
+.content{
+    width:100%;
+    height:100%;
+}
+
+
+
+.upInfor {
+    background: #fff;
+    width: 95%;
+    margin: 0.23rem auto;
+    overflow: hidden;
+    h5 {
+        font-size: 0.36rem;
+        font-weight: bold;
+        line-height: 1rem;
+        padding-left: 0.8rem;
+        position: relative;
+
+        span {
+            display: inline-block;
+            width: 0.1rem;
+            height: 0.4rem;
+            background: #448CFF;
+            position: absolute;
+            left: 0.5rem;
+            top: 0.3rem;
+            border-radius: 1rem;
+        }
+    }
+
+    /deep/.van-button--small {
+        height: 32px;
+        padding: 0 8px;
+        font-size: 12px;
+        width: 1.18rem;
+        height: 0.66rem;
+        background: linear-gradient(180deg, #6AB6FF, #2E78F9);
+        border-radius: 0.4rem;
+    }
+
+    /deep/.van-cell {
+        line-height: 18px;
+    }
+
+    /deep/.van-field__label {
+        width: 3.47rem;
+    }
+
+    /deep/.van-nav-bar {
+        background: none;
+        background-color: #2856F6 !important;
+    }
+
+    /deep/.van-nav-bar__title {
+        color: #323233;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.upInforPer {
+    /deep/.van-button--small {
+        width: 2.4rem !important;
+    }
+}
+
+.button_bot {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+
+    /deep/.van-button--normal {
+        width: 4rem;
+        height: 1.1rem;
+        background: linear-gradient(180deg, #69B6FF, #2D77F9);
+        border-radius: 10px;
+
+    }
+
+    /deep/.van-button--primary {
+        border: none;
+    }
+
+    .gbut {
+        background: #D3D1D1;
+        box-shadow: 1px 3px 16px 0px rgba(192, 192, 192, 0.75);
+    }
+
+    /deep/.van-button--info {
+        border: none;
+    }
+
+}

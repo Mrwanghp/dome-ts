@@ -1,0 +1,39 @@
+.marginTop22 {
+    margin-top: .4rem;
+}
+
+.bottomLogn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: .533333rem;
+    margin: .96rem auto 0 auto;
+}
+
+.loginBtn {
+    width: 7.173333rem;
+    height: 1.12rem;
+    background: linear-gradient(-90deg, #307AF9, #70A3F9);
+    box-shadow: .013333rem .066667rem .613333rem .053333rem rgba(48, 122, 249, 0.39);
+    border-radius: .56rem;
+    text-align: center;
+    font-size: .373333rem;
+    color: #FFFFFF;
+    line-height: 1.12rem;
+    margin: .96rem auto 0.8rem auto;
+}
+
+.icon {
+    width: 2.226667rem;
+    height: 2.253333rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1.04rem .026667rem rgba(48, 122, 249, .3);
+    border-radius: .4rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2.04rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

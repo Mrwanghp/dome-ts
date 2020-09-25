@@ -1,0 +1,79 @@
+{
+  "id": "2082448",
+  "name": "武钢物流移动端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "954427",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "1277697",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "4329214",
+      "name": "清除",
+      "font_class": "qingchu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5093339",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6282728",
+      "name": "当前版本",
+      "font_class": "dangqianbanben",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "7738011",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "7956371",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "15625588",
+      "name": "密码",
+      "font_class": "mimabeifen",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "15633147",
+      "name": "仓库",
+      "font_class": "cangku",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "10487699",
+      "name": "订 单",
+      "font_class": "dingdan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
